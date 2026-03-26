@@ -1,0 +1,41 @@
+body {
+    background-color: #eee;
+}
+
+.navbar {
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards .card {
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cards .card img {
+    width: 400px;
+    border-radius: 15px;
+}

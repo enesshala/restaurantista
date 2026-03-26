@@ -1,0 +1,19 @@
+.ngjyra {
+  position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+    /* HEXADECIMAL - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f */
+    /* background-color: #ff0000; 6 karaktere - 2red 2green 2blue */
+
+    /* RGB - rgb(255, 255, 255) */
+    /* background-color: rgb(23, 133, 42); */
+
+    /* HSL - Hue, Saturation, Light */
+    /* background-color: hsl(224, 77%, 31%); */
+
+    /* CMYK - Cyan, Magenta, Yellow, Knight */
+    background-color: rgba(18, 51, 140, 1);
+    opacity: 0.5;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabelat ne HTML</title>
+    </head>
+    <body>
+        <h1>Tabelat</h1>
+
+        <table border="1" width="50%">
+            <thead>
+                <tr>
+                    <th>Emri</th>
+                    <th>Mbiemri</th>
+                    <th>Mosha</th>
+                    <th>Qyteti</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enes</td>
+                    <td>Shala</td>
+                    <td></td>
+                    <td>Ferizaj</td>
+                </tr>
+                <tr>
+                    <td>Olsi</td>
+                    <td>Fisteku</td>
+                    <td>20</td>
+                    <td>Prishtine</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Emri</th>
+                    <th>Mbiemri</th>
+                    <th>Mosha</th>
+                    <th>Qyteti</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br />
+
+        <table border="1" width="500px">
+            <tr>
+                <th colspan="2">Full name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>Enes</td>
+                <td>Shala</td>
+                <td>26</td>
+                <td rowspan="3">Ferizaj</td>
+            </tr>
+            <tr>
+                <td>Lulzim</td>
+                <td>Nuredini</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Faik</td>
+                <td>Himaj</td>
+                <td>20</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <table border="1">
+            <tr>
+                <th colspan="3">Invoice #12345679</th>
+                <th>14 January 2026</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <strong>
+                        Pay to: <br />
+                        Acme Billing Co. <br />
+                        123 Main St. <br />
+                        CityVille NA 12345
+                    </strong>
+                </td>
+                <td colspan="2">
+                    Customer: <br />
+                    John Wick <br />
+                    321 Willow Way <br />
+                    Southeast Northewetershire
+                </td>
+            </tr>
+            <tr>
+                <th>Name / Description</th>
+                <th>Qty.</th>
+                <th>@</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>PaperClips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>Staples (box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <th colspan="3">Subtotal</th>
+                <td>110.00</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax</th>
+                <td>8%</td>
+                <td>8.80</td>
+            </tr>
+            <tr>
+                <th colspan="3">Grand Total</th>
+                <td>$ 118.80</td>
+            </tr>
+        </table>
+    </body>
+</html>

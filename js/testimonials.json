@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Arbrim Thaci",
+        "role": "CEO",
+        "image": "img/arbrim-thaci.webp",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia  molestiae sunt fugit corrupti harum consequuntur, beatae animi obcaecati voluptas debitis optio numquam nisi laboriosam rerum! In, est iure."
+    },
+    {
+        "name": "Enes Shala",
+        "role": "Lead FrontEnd",
+        "image": "img/enes-shala.png",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia  molestiae sunt fugit corrupti harum consequuntur, beatae animi obcaecati voluptas debitis optio numquam nisi laboriosam rerum! In, est iure."
+    },
+    {
+        "name": "Violeta Thaci",
+        "role": "Lead Designer",
+        "image": "img/violeta-thaci.webp",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia  molestiae sunt fugit corrupti harum consequuntur, beatae animi obcaecati voluptas debitis optio numquam nisi laboriosam rerum! In, est iure."
+    },
+    {
+        "name": "Filan Fisteku",
+        "role": "Lead Designer",
+        "image": "img/user.png",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia  molestiae sunt fugit corrupti harum consequuntur, beatae animi obcaecati voluptas debitis optio numquam nisi laboriosam rerum! In, est iure."
+    }
+]
